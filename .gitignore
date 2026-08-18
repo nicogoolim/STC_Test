@@ -1,0 +1,42 @@
+# Build directories
+build/
+
+# Qt generated files
+*.autogen
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Debug/Release
+Debug/
+Release/
+MinGW/
+x64/
+
+# Visual Studio
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.slnx
+*.tlog/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Database
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.user

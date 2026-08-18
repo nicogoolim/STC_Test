@@ -1,0 +1,13 @@
+texteditor,fileformats,encoding,hasintellisense,hasplugins,cancompile
+VisualStudio Code,everything,"ANSI; UTF-8",True,TRUE,true
+Sublime Text,mostly,"UTF-8",false,FALSE,False
+Notepad++,limited,"UTF-8; ASCII",FaLsE,fAlSe,false
+PyCharm,Python-centric,"UTF-8",tRuE,TrUe,TRUE
+Vim,all,"UTF-8; Latin-1",FALSE,true,False
+Emacs,all,"UTF-8; CP1251",TRUE,false,TRUE
+IntelliJ IDEA,multi,"UTF-8",true,TRUE,true
+Atom,web-focused,"UTF-8",FALSE,TRUE,false
+Visual Studio,windows-only,"UTF-8; Windows-1251",TRUE,TRUE,TRUE
+Xcode,macOS,iOS,"UTF-8; MacRoman",TRUE,TRUE,TRUE
+Zed,modern,"UTF-8",TRUE,FALSE,false
+Lapce,Rust-native,"UTF-8",TRUE,TRUE,true

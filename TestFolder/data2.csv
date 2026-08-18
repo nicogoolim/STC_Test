@@ -1,0 +1,2 @@
+texteditor,fileformats,encoding,hasintellisense,hasplugins,cancompile
+notepad++,everything,"ANSI; UTF;",true,true,false

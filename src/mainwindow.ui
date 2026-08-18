@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TableViewApp</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableView" name="tableView">
+      <property name="selectionMode">
+       <enum>QAbstractItemView::SelectionMode::SingleSelection</enum>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectionBehavior::SelectRows</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+<widget class="QMenuBar" name="menuBar">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1024</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <widget class="QMenu" name="menuEdit">
+     <property name="title">
+      <string>&amp;Правка</string>
+     </property>
+     <addaction name="actionEdit"/>
+     <addaction name="actionDelete"/>
+    </widget>
+    <widget class="QMenu" name="menuFile">
+     <property name="title">
+      <string>&amp;Файл</string>
+     </property>
+     <addaction name="actionImport"/>
+    </widget>
+    <addaction name="menuFile"/>
+    <addaction name="menuEdit"/>
+   </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionImport">
+   <property name="text">
+    <string>Импортировать</string>
+   </property>
+  </action>
+  <action name="actionEdit">
+   <property name="text">
+    <string>Изменить строчку</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>Удалить стрчоку</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
